@@ -1,0 +1,9 @@
+{
+  "name": "link-from-plain-text-firefox",
+  "title": "Link from Plain Text",
+  "id": "jid1-2pACK3dWfsBJ6g",
+  "description": "Easy way to use plain text as a link. Using either context-menu or hotkeys",
+  "author": "Robert Byrne",
+  "license": "GNU GPL v3",
+  "version": "0.1.1"
+}

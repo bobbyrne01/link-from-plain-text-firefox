@@ -1,9 +1,25 @@
 {
-  "name": "link-from-plain-text-firefox",
-  "title": "Link from Plain Text",
-  "id": "jid1-2pACK3dWfsBJ6g",
-  "description": "Easy way to use plain text as a link. Using either context-menu or hotkeys",
-  "author": "Robert Byrne",
-  "license": "GNU GPL v3",
-  "version": "0.1"
+    "name": "link-from-plain-text-firefox",
+        "version": "0.1.1",
+        "description": "Easy way to use plain text as a link. Using either context-menu or hotkeys",
+        "main": "addon/lib/main.js",
+        "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+        "repository": {
+        "type": "git",
+            "url": "https://github.com/bobbyrne01/link-from-plain-text-firefox.git"
+    },
+        "author": "Robert Byrne",
+        "license": "GNU GPL v3",
+        "bugs": {
+        "url": "https://github.com/bobbyrne01/link-from-plain-text-firefox/issues"
+    },
+        "homepage": "https://github.com/bobbyrne01/link-from-plain-text-firefox",
+        "devDependencies": {
+        "grunt": "^0.4.5",
+            "grunt-contrib-jshint": "^0.10.0",
+            "grunt-contrib-watch": "^0.6.1",
+            "grunt-notify": "^0.4.1"
+    }
 }

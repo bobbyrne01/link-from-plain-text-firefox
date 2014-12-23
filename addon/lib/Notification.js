@@ -7,4 +7,4 @@ exports.sendMsg = function(msg) {
     text: msg,
     iconURL: Data.get("images/ico.png")
   });
-}
+};

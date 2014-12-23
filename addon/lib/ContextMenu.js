@@ -26,4 +26,15 @@ exports.init = function() {
       Tabs.open(text);
     }
   });
+  
+  ContextMenu.Item({
+    label: "Open Plain Text as Link in New Window",
+    context: ContextMenu.SelectionContext(),
+    contentScriptFile: [ Data.get("js/ListenForContextClick.js") ],
+    onMessage: function (text) {
+
+      Notification.sendMsg("Opening in new window");
+      Tabs.open({url: text, inNewWindow: true});
+    }
+  });
 };

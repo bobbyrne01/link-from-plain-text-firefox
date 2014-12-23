@@ -28,4 +28,16 @@ exports.init = function() {
       }
     }
   });
+  
+  Hotkey({
+    combo: "accel-shift-w",
+    onPress: function() {
+      if(selection.text === "" || selection.text === null){
+        Notification.sendMsg("No text selected");
+      }else{
+        Notification.sendMsg("Opening in new window");
+        Tabs.open({url: selection.text, inNewWindow: true});
+      }
+    }
+  });
 };
