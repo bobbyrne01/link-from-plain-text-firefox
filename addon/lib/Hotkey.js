@@ -30,7 +30,7 @@ exports.init = function() {
   });
   
   Hotkey({
-    combo: "accel-shift-w",
+    combo: "accel-shift-n",
     onPress: function() {
       if(selection.text === "" || selection.text === null){
         Notification.sendMsg("No text selected");

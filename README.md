@@ -9,7 +9,7 @@ Easy way to use plain text as a link. Using either context-menu or hotkeys
 - Context-Menu item
 - Hotkeys (ctrl+shift+c) .. open as link in current tab
 - Hotkeys (ctrl+shift+t) .. open as link in new tab
-- Hotkeys (ctrl+shift+w) .. open as link in new window
+- Hotkeys (ctrl+shift+n) .. open as link in new window
 
 ## Image Attribution
 

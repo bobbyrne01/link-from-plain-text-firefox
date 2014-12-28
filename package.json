@@ -1,6 +1,6 @@
 {
     "name": "link-from-plain-text-firefox",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "description": "Easy way to use plain text as a link. Using either context-menu or hotkeys",
         "main": "addon/lib/main.js",
         "scripts": {
